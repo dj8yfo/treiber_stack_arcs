@@ -1,0 +1,10 @@
+warning: associated function `try_delete` is never used
+  --> src/list/cursor.rs:95:12
+   |
+95 |     pub fn try_delete(&self) -> Result<()> {
+   |            ^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: `conc_linklists_std_arc` (lib) generated 1 warning
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
